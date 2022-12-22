@@ -1,5 +1,5 @@
 <?php
 require './admin-required.php';
-require '';
-$pageName = 'add';
-$title = "新增商品";
+require '../parts/connect_db.php=';
+$pageName = 'addticket';
+$title = "新增票券";
